@@ -11,6 +11,7 @@ import { NavbarComponent } from './share/navbar/navbar.component';
 import { RegisterComponent } from './register/register.component';
 import { AlertaComponent } from './alerta/alerta.component';
 import { HomeComponent } from './home/home.component';
+import { ButtonDarkComponent } from './share/button-dark/button-dark.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     RegisterComponent,
     AlertaComponent,
-    HomeComponent
+    HomeComponent,
+    ButtonDarkComponent
   ],
   imports: [
     BrowserModule,
