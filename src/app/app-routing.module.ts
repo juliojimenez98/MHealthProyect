@@ -5,11 +5,13 @@ import { LoginComponent } from './auth/login/login.component';
 import { BlogComponent } from './blog/blog.component';
 import { ChatComponent } from './chat/chat.component';
 import { HomeComponent } from './home/home.component';
+import { MusicaComponent } from './musica/musica.component';
 import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'musica', component: MusicaComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'perfil', component: ProfileComponent },
   { path: 'chat', component: ChatComponent },

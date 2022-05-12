@@ -12,6 +12,7 @@ import { RegisterComponent } from './register/register.component';
 import { AlertaComponent } from './alerta/alerta.component';
 import { HomeComponent } from './home/home.component';
 import { ButtonDarkComponent } from './share/button-dark/button-dark.component';
+import { MusicaComponent } from './musica/musica.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ButtonDarkComponent } from './share/button-dark/button-dark.component';
     RegisterComponent,
     AlertaComponent,
     HomeComponent,
-    ButtonDarkComponent
+    ButtonDarkComponent,
+    MusicaComponent
   ],
   imports: [
     BrowserModule,
